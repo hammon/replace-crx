@@ -19,13 +19,16 @@ var dict = {
          "\\." : " РАКОМ. "
 };
 
-
+doWalk();
+/*
 chrome.storage.local.get("dict",
-												function(items){
-													dict = JSON.parse(items.dict);
-													console.log("chrome.storage.local.get items: " + JSON.stringify(dict));
-													doWalk();
-												});
+			function(items){
+				dict = JSON.parse(items.dict);
+				console.log("chrome.storage.local.get items: " + JSON.stringify(dict));
+				doWalk();
+			});
+			*/
+
 //var isRunning = true;
 //walk(document.body);
 
